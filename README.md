@@ -2,6 +2,9 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.2.
 
+Run-> then paste the below to get over CORS issues:
+chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security
+
 ## Development server
 
 To start a local development server, run:
