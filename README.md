@@ -6,7 +6,7 @@ Run-> then paste the below to get over CORS issues:
 chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security
 
 For deployable code use:
-ng build --configuration production
+ng build --configuration production --base-href /angularApp/ --deploy-url /angularApp/
 
 ## Development server
 
