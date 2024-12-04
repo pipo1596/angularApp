@@ -1,7 +1,7 @@
 <app-header [title]="title" [fullname]="fullname"></app-header>
 
 <div [class.d-none]="loading">
-<h2 class="ms-4 my-2" *ngIf="fullname!==''">Welcome, {{fullname}} !</h2>
+<h3 class="ms-4 my-2" *ngIf="fullname!==''">{{title}}</h3>
 
 
 <div class="alert alert-danger mt-3" role="alert" *ngIf="fullname==''">
