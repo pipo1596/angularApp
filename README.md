@@ -5,6 +5,9 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 Run-> then paste the below to get over CORS issues:
 chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security
 
+For deployable code use:
+ng build --configuration production
+
 ## Development server
 
 To start a local development server, run:
