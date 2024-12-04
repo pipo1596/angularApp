@@ -1,0 +1,11 @@
+<app-header [title]="title" [fullname]="fullname"></app-header>
+
+<div [class.d-none]="loading">
+<h2 class="ms-4 my-2" *ngIf="fullname!==''">Welcome, {{fullname}} !</h2>
+
+
+<div class="alert alert-danger mt-3" role="alert" *ngIf="fullname==''">
+    Make sure to login to access this feature!
+</div>
+</div>
+<app-footer></app-footer>
